@@ -1,6 +1,4 @@
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
-import { useEffect, useState } from "react";
 
 export async function getStaticProps() {
   return {

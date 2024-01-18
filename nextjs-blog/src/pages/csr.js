@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Layout from "../components/Layout";
-import SubLayout from "../components/SubLayout";
+import Layout from "components/Layout";
+import SubLayout from "components/SubLayout";
 import { useEffect, useState } from "react";
 
 export default function CSR() {

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import styles from "../../styles/Home.module.css";
 
 export async function getServerSideProps() {
   // SSR : 서버에 부하 >> isr을 이용!

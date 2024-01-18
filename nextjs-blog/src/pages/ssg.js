@@ -1,7 +1,4 @@
-import Head from "next/head";
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
-import { useEffect, useState } from "react";
 
 export async function getStaticProps() {
   // dev에서는 동작x / dev에서는 ssr처럼 동작
